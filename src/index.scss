@@ -1,0 +1,11 @@
+@import "./styles/mixins";
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: $dark;
+
+  @include mobile {
+    padding: 15px;
+  }
+}

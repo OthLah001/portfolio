@@ -1,0 +1,11 @@
+@import './styles/mixins';
+
+.app-container {
+  width: 100%;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+
+  @include desktop {
+    max-width: $page_width;
+  }
+}
