@@ -1,0 +1,56 @@
+@import '../../styles/mixins';
+
+
+.skills-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.skills-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .description, .logos{
+
+    @include desktop {
+      width: 47%;
+    }
+  }
+}
+
+.description {
+  font-size: 18px;
+  color: $grey;
+  line-height: 1.5;
+
+  .skill {
+    color: $orange;
+  }
+
+  .link {
+    text-decoration: none;
+    color: $orange;
+
+    &:hover {
+      color: $grey;
+    }
+  }
+}
+.logos {
+  text-align: center;
+
+  #myCanvas {
+    max-width: 100%;
+  }
+} 
