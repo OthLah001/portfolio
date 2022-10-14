@@ -1,0 +1,30 @@
+@import '../../../styles/mixins';
+
+.section-title {
+  font-size: 40px;
+  color: $white;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  width: 100%;
+
+  @include desktop {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0px;
+    width: 90%;
+    height: 1px;
+    margin-left: 20px;
+    background-color: $orange;
+
+    @include desktop {
+      width: 500px;
+    }
+  }
+}
