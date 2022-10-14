@@ -6,6 +6,6 @@ body {
   background-color: $dark;
 
   @include mobile {
-    padding: 15px;
+    padding: 5%;
   }
 }
