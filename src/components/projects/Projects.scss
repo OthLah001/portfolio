@@ -1,0 +1,16 @@
+@import '../../styles/mixins';
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+  .project-animation:not(:last-of-type) {
+    margin-bottom: 80px;
+
+    @include mobile {
+      margin-bottom: 30px;
+    }
+  }
+}
