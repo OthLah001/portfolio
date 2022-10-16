@@ -13,7 +13,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="hero-container">
+    <div className="hero-container section">
       <div className="info">
         <p>Hi, my name is</p>
         <h1>

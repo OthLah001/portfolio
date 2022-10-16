@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 
   @include desktop {
     flex-direction: row;
@@ -13,7 +12,7 @@
   }
 }
 
-.info {
+.hero-container .info {
   @include mobile {
     text-align: center;
   }

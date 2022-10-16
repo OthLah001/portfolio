@@ -2,14 +2,13 @@
 
 
 .skills-container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
 
-.skills-info {
+.skills-container .skills-info {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -29,7 +28,7 @@
   }
 }
 
-.description {
+.skills-container .description {
   font-size: 18px;
   color: $grey;
   line-height: 1.5;
@@ -47,7 +46,7 @@
     }
   }
 }
-.logos {
+.skills-container .logos {
   text-align: center;
 
   #myCanvas {
