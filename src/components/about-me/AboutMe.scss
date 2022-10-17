@@ -1,0 +1,43 @@
+@import '../../styles/mixins';
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.about-container {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .bio {
+    font-size: 18px;
+    color: $grey;
+    line-height: 1.5;
+
+    .skill {
+      color: $orange;
+    }
+
+    @include desktop {
+      width: 70%;
+      text-align: justify;
+    }
+  }
+
+  .cta {
+    margin-top: 50px;
+
+    .ol-button:first-of-type {
+      margin-right: 20px;
+    }
+    .ol-button:last-of-type {
+      margin-left: 20px;
+    }
+  }
+}
