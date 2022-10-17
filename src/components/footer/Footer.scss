@@ -1,0 +1,16 @@
+@import '../../styles/mixins';
+
+.footer-container {
+  margin: 40px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 14px;
+    color: $grey;
+    font-weight: 400;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+  }
+}
