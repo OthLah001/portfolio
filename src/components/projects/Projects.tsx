@@ -19,12 +19,10 @@ export default function Projects() {
   
 
   return (
-    <div className="projects-container section">
-      <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
+      <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true} className="projects-container section">
         <SectionTitle title="Projects" />
-      </AnimationOnScroll>
 
-      {projects}
-    </div>
+        {projects}
+      </AnimationOnScroll>
   )
 }
