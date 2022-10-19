@@ -1,0 +1,52 @@
+@import '../../styles/mixins';
+
+.social-container {
+  display: flex;
+
+  @include mobile {
+    flex-direction: row;
+  }
+
+  @include desktop {
+    position: fixed;
+    bottom: 0px;
+    left: 30px;
+    right: auto;
+    flex-direction: column;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 90px;
+      margin: 0px auto;
+      background-color: $grey;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    @include mobile {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    @include desktop {
+      margin-bottom: 20px;
+    }
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: $grey;
+
+    &:hover {
+      color: $orange;
+      cursor: pointer;
+      transform: scale(1.1);
+      position: relative;
+      top: -2px;
+    }
+  }
+}
