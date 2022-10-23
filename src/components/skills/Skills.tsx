@@ -7,7 +7,7 @@ import ResumeFile from '../../assets/statics/sample.pdf';
 export default function Skills() {
 
   return (
-    <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true} className="skills-container section">
+    <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="skills-container section">
       <SectionTitle title="Skills" />
 
       <div className="skills-info">

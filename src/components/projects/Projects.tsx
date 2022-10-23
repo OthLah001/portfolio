@@ -10,7 +10,7 @@ export default function Projects() {
       const props = {...project, isReversed: index%2==1};
 
       return (
-        <AnimationOnScroll key={index} animateIn="animate__fadeInUp" animateOnce={true} className="project-animation">
+        <AnimationOnScroll initiallyVisible={true}  key={index} animateIn="animate__fadeInUp" animateOnce={true} className="project-animation">
           <Project {...props}/>
         </AnimationOnScroll>
       )
@@ -19,7 +19,7 @@ export default function Projects() {
   
 
   return (
-      <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true} className="projects-container section">
+      <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="projects-container section">
         <SectionTitle title="Projects" />
 
         {projects}

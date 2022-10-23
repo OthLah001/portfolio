@@ -6,7 +6,7 @@ import Resume from '../../assets/statics/sample.pdf';
 
 export default function AboutMe() {
   return (
-    <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true} className="about-container section">
+    <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="about-container section">
       <SectionTitle title="About me" />
 
       <div className="content">
