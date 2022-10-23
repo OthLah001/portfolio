@@ -1,0 +1,67 @@
+@import '../../styles/mixins';
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  .data-content {
+    margin-top: 20px;
+  }
+
+  .tab {
+    color: $grey;
+
+    &.Mui-selected {
+      color: $orange;
+    }
+  }
+  .tab-list .MuiTabs-indicator {
+    background-color: $orange;
+  }
+}
+
+.experience-container .tab-panel {
+  color: $grey;
+  transition: all 1s linear;
+
+  @include mobile {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .job-title {
+    color: $white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+    .at {
+      color: $orange;
+    }
+  }
+
+  .time-worked {
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .tasks {
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+
+    li {
+      padding-bottom: 20px;
+      line-height: 1.4;
+
+      &::before {
+        content: "▹";
+        color: $orange;
+        padding-right: 20px;
+      }
+    }
+  }
+}
