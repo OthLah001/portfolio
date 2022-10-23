@@ -1,5 +1,6 @@
 import Hero from "./components/hero/Hero";
 import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
 import Projects from "./components/projects/Projects";
 import AboutMe from './components/about-me/AboutMe';
 import Footer from './components/footer/Footer';
@@ -10,6 +11,7 @@ function App() {
     <div className="app-container">
       <Hero />
       <Skills />
+      <Experience />
       <Projects />
       <AboutMe />
       <Footer />
