@@ -1,3 +1,4 @@
+import Navbar from './components/navbar/Navbar';
 import Hero from "./components/hero/Hero";
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
@@ -8,14 +9,17 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="app-container">
-      <Hero />
-      <Skills />
-      <Experience />
-      <Projects />
-      <AboutMe />
-      <Footer />
-    </div>
+    <>
+      <Navbar />
+      <div className="app-container">
+        <Hero />
+        <Skills />
+        <Experience />
+        <Projects />
+        <AboutMe />
+        <Footer />
+      </div>
+    </>
   )
 }
 
