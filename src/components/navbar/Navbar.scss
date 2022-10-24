@@ -1,0 +1,123 @@
+@import '../../styles/mixins';
+
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background-color: $dark;
+  color: $grey;
+  display: flex;
+  z-index: 999;
+  box-shadow: 0 10px 30px -10px $night;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  transition: top 0.3s linear;
+
+  &.show {
+    top: 0;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &.hide:not(.shown-links) {
+      top: -90px;
+    }
+    &.hide:not(.hidden-links) {
+      top: 0px;
+    }
+  }
+
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &.hide {
+      top: -90px;
+    }
+  }
+
+  p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.navbar-container .main-menu {
+  @include mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .home {
+    margin-left: 35px;
+    cursor: pointer;
+
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .mobile-icon {
+    cursor: pointer;
+    margin-right: 35px;
+    font-size: 20px !important;
+    padding-top: 5px;
+
+    @include desktop {
+      display: none;
+    }
+  }
+}
+
+.navbar-container .sections-link {
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    transition: height 0.3s linear;
+
+    &.show-links {
+      height: calc(100vh - 68px);
+    }
+    &.hide-links {
+      height: 0px;
+      
+      p {
+        opacity: 0;
+        position: fixed;
+        top: -100px;
+      }
+    }
+  }
+
+  @include desktop {
+    flex-direction: row;
+    margin-right: 35px;
+  }
+
+  p {
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+    &:not(:last-of-type) {
+      margin-right: 20px;
+    }
+    &:hover {
+      color: $orange;
+      transform: scale(1.1);
+    }
+  }
+
+  .number {
+    color: $orange;
+    font-size: 13px;
+  }
+}
