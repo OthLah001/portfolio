@@ -8,6 +8,7 @@
 
   .data-content {
     margin-top: 20px;
+    width: 100%;
   }
 
   .tab {
@@ -17,8 +18,13 @@
       color: $orange;
     }
   }
-  .tab-list .MuiTabs-indicator {
-    background-color: $orange;
+  .tab-list {
+    .MuiTabs-scroller {
+      overflow: scroll !important;
+    }
+    .MuiTabs-indicator {
+      background-color: $orange;
+    }
   }
 }
 
