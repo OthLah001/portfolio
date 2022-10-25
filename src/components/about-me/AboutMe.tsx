@@ -16,7 +16,7 @@ export default function AboutMe() {
           <span className="skill"> Typescript</span>, <span className="skill">JQuery</span>, <span className="skill">Scss</span>, <span className="skill">Python</span>,
           <span className="skill"> Django</span>, <span className="skill">Node.js</span>, <span className="skill">Express.js</span>, <span className="skill">SQL Server</span>,
           <span className="skill"> PostgreSQL</span> and <span className="skill">MongoDB</span>. I'm also completely familiar with <span className="skill">AWS</span>,
-          <span className="skill"> Heroku</span>Heroku, <span className="skill">Azure</span>, <span className="skill">Git</span>, <span className="skill">Github</span>,
+          <span className="skill"> Heroku</span>, <span className="skill">Azure</span>, <span className="skill">Git</span>, <span className="skill">Github</span>,
           <span className="skill"> Twilio</span>, <span className="skill">Timekit</span> and <span className="skill">SyncFusion</span>.<br/><br/>
           There are several strong points I would like to share with you. First of all, I am able to <span className="skill">quickly understand what 
           the client wants</span> and what tasks I am required to develop. Besides, I have the potential to keep my patience and and 
