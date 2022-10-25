@@ -1,12 +1,12 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import Button from '../shared/Button/Button';
 import './AboutMe.scss';
 import Resume from '../../assets/statics/sample.pdf';
+import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 
 export default function AboutMe() {
   return (
-    <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="about-container section">
+    <AnimateOnScroll className="about-container section" animate='fadeInLeft'>
       <SectionTitle title="About me" />
 
       <div className="content">
@@ -30,6 +30,7 @@ export default function AboutMe() {
           <Button text="Resume" href={Resume} />
         </div>
       </div>
-    </AnimationOnScroll>
+    </AnimateOnScroll>
+    
   )
 }

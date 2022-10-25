@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
@@ -7,6 +6,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import './Experience.scss';
 import { EXPERIENCE_DATA } from './data';
+import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 
 export default function Experience() {
   const [value, setValue] = useState('1');
@@ -37,7 +37,7 @@ export default function Experience() {
 
   
   return (
-    <AnimationOnScroll initiallyVisible={true} animateOnce={true} animateIn="animate__fadeInLeft" className="experience-container section">
+    <AnimateOnScroll className="experience-container section" animate='fadeInLeft'>
       <SectionTitle title="Experience" />
 
       <div className="data-content">
@@ -49,6 +49,6 @@ export default function Experience() {
           { TabPanelsContent }
         </TabContext>
       </div>
-    </AnimationOnScroll>
+    </AnimateOnScroll>
   )
 }

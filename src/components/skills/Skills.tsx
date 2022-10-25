@@ -1,13 +1,13 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { AngularImg, CssImg, DjangoImg, ExpressJsImg, HtmlImg, JavaScriptImg, MongoDbImg, NodeJsImg, PostgreSqlImg, PythonImg, ReactImg, ScssImg, SqlServerImg, TypescriptImg, VueImg } from '../../assets/images';
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import './Skills.scss';
 import ResumeFile from '../../assets/statics/sample.pdf';
+import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 
 export default function Skills() {
 
   return (
-    <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="skills-container section">
+    <AnimateOnScroll className="skills-container section" animate='fadeInRight'>
       <SectionTitle title="Skills" />
 
       <div className="skills-info">
@@ -46,6 +46,6 @@ export default function Skills() {
           </canvas>
         </div>
       </div>
-    </AnimationOnScroll>
+    </AnimateOnScroll>
   )
 }
