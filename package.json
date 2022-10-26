@@ -1,11 +1,12 @@
 {
   "name": "portfolio",
+  "homepage": "https://othmanelahrimi.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --outDir build",
     "preview": "vite preview"
   },
   "dependencies": {
