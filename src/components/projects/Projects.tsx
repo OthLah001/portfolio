@@ -20,7 +20,7 @@ export default function Projects() {
 
   return (
     <div className="projects-container section" >
-      <AnimateOnScroll animate='fadeInRight'>
+      <AnimateOnScroll animate='fadeInRight' className="title">
         <SectionTitle title="Projects" />
       </AnimateOnScroll>
 
