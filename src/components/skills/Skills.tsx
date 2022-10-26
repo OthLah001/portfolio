@@ -3,8 +3,30 @@ import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import './Skills.scss';
 import ResumeFile from '../../assets/statics/sample.pdf';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
+import '../../assets/js/tagCanvas.min.js';
+import { useEffect } from 'react';
 
 export default function Skills() {
+
+  // Hack to include TagCanvas scripts in build
+  useEffect(() => {
+    const s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.innerHTML = `
+      try {
+        TagCanvas.Start('myCanvas', null, {
+          initial: [0.5, 0.5],
+          maxSpeed: 0.025,
+          depth: 0.8
+        });
+      } catch(e) {
+        // something went wrong, hide the canvas container
+        document.getElementById('myCanvasContainer').style.display = 'none';
+      }
+    `;
+    document.querySelector('html')?.appendChild(s);
+  }, [])
 
   return (
     <AnimateOnScroll className="skills-container section" animate='fadeInRight'>

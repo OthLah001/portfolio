@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import { motion } from "framer-motion";
 
 const getVariants = (type: 'fadeInLeft' | 'fadeInRight' | 'fadeInBottom' | undefined) => {
-  console.log(type)
   return {
     offscreen: {
       opacity: !!type ? 0 : 1,
