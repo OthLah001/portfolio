@@ -1,8 +1,8 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import Project from '../shared/Project/Project';
 import './Projects.scss';
 import { PROJECTS_DATA } from './data';
+import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 
 export default function Projects() {
   const projects = PROJECTS_DATA.map(
@@ -10,19 +10,21 @@ export default function Projects() {
       const props = {...project, isReversed: index%2==1};
 
       return (
-        <AnimationOnScroll initiallyVisible={true}  key={index} animateIn="animate__fadeInUp" animateOnce={true} className="project-animation">
+        <AnimateOnScroll key={index} className="project-animation" animate='fadeInBottom'>
           <Project {...props}/>
-        </AnimationOnScroll>
+        </AnimateOnScroll>
       )
     }
   )
   
 
   return (
-      <AnimationOnScroll initiallyVisible={true}  animateIn="animate__fadeInLeft" animateOnce={true} className="projects-container section">
+    <div className="projects-container section" >
+      <AnimateOnScroll animate='fadeInRight'>
         <SectionTitle title="Projects" />
+      </AnimateOnScroll>
 
-        {projects}
-      </AnimationOnScroll>
+      {projects}
+    </div>
   )
 }

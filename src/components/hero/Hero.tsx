@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import PersonalImage from '../personal-image/PersonalImage';
+import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import './Hero.scss';
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="hero-container section">
+    <AnimateOnScroll className="hero-container section" animate='fadeInLeft'>
       <div className="info">
         <p>Hi, my name is</p>
         <h1>
@@ -31,6 +32,6 @@ export default function Home() {
       </div>
 
       <PersonalImage />
-    </div>
+    </AnimateOnScroll>
   )
 }
