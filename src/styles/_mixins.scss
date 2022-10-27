@@ -11,3 +11,15 @@
     @content; 
   }
 }
+
+@mixin socialMobile {
+  @media (max-width: 1350px) { 
+    @content;
+  }
+}
+
+@mixin socialDesktop {
+  @media (min-width: 1350px) { 
+    @content;
+  }
+}

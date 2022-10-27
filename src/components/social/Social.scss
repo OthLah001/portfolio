@@ -3,11 +3,11 @@
 .social-container {
   display: flex;
 
-  @include mobile {
+  @include socialMobile {
     flex-direction: row;
   }
 
-  @include desktop {
+  @include socialDesktop {
     position: fixed;
     bottom: 0px;
     left: 30px;
@@ -27,11 +27,11 @@
   a {
     text-decoration: none;
 
-    @include mobile {
+    @include socialMobile {
       margin-right: 10px;
       margin-left: 10px;
     }
-    @include desktop {
+    @include socialDesktop {
       margin-bottom: 20px;
     }
   }
