@@ -7,6 +7,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import './Experience.scss';
 import { EXPERIENCE_DATA } from './data';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
+import { SectionClasses } from '../../utils/enums';
 
 export default function Experience() {
   const [value, setValue] = useState('1');
@@ -37,7 +38,7 @@ export default function Experience() {
 
   
   return (
-    <AnimateOnScroll className="experience-container section" animate='fadeInLeft'>
+    <AnimateOnScroll className={`${SectionClasses.EXPERIENCE} section`} animate='fadeInLeft'>
       <SectionTitle title="Experience" />
 
       <div className="data-content">

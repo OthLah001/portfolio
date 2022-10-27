@@ -3,10 +3,11 @@ import Button from '../shared/Button/Button';
 import './AboutMe.scss';
 import Resume from '../../assets/statics/sample.pdf';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
+import { SectionClasses } from '../../utils/enums';
 
 export default function AboutMe() {
   return (
-    <AnimateOnScroll className="about-container section" animate='fadeInLeft'>
+    <AnimateOnScroll className={`${SectionClasses.ABOUT} section`} animate='fadeInLeft'>
       <SectionTitle title="About me" />
 
       <div className="content">

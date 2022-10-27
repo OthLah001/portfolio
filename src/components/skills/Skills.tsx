@@ -5,6 +5,7 @@ import ResumeFile from '../../assets/statics/sample.pdf';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import '../../assets/js/tagCanvas.min.js';
 import { useEffect } from 'react';
+import { SectionClasses } from '../../utils/enums';
 
 export default function Skills() {
 
@@ -29,7 +30,7 @@ export default function Skills() {
   }, [])
 
   return (
-    <AnimateOnScroll className="skills-container section" animate='fadeInRight'>
+    <AnimateOnScroll className={`${SectionClasses.SKILLS} section`} animate='fadeInRight'>
       <SectionTitle title="Skills" />
 
       <div className="skills-info">
