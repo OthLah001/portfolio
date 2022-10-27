@@ -7,9 +7,9 @@ export default function Home() {
   const subTitles = [
     "I build things for the web.",
     1500,
-    "I make the web a good place.",
+    "I build programs.",
     1500,
-    "I make dreams come true.",
+    "I make ideas live on the web.",
     1500
   ]
 
