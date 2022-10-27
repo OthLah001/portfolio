@@ -22,7 +22,7 @@ export default function Experience() {
     );
     TabPanelsContent.push(
       <TabPanel value={`${index+1}`} className="tab-panel" key={`tab-panel-${index+1}`}>
-        <h3 className="job-title">{exp.jobTitle} <span className="at">@ {exp.company}</span></h3>
+        <h3 className="job-title">{exp.jobTitle} <a href={exp.website} target="_blank" className="at">@ {exp.company}</a></h3>
         <p className="time-worked">{exp.timeWorked}</p>
         <ul className="tasks">
           {

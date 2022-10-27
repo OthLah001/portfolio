@@ -2,6 +2,7 @@
 export const EXPERIENCE_DATA = [
   {
     company: "IGotAnOffer",
+    website: "https://igotanoffer.com/",
     jobTitle: "Full Stack Web Developer",
     timeWorked: "October 2021 - September 2022",
     tachStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit"],
@@ -16,6 +17,7 @@ export const EXPERIENCE_DATA = [
   },
   {
     company: "Othari Advisor",
+    website: "https://www.othariadvisor.com/",
     jobTitle: "Consultant & Engineering Leader",
     timeWorked: "April 2022 - August 2022",
     tachStack: ["Angular", "Django", "PostgreSQL", "AWS"],
@@ -28,6 +30,7 @@ export const EXPERIENCE_DATA = [
   },
   {
     company: "Modellium",
+    website: "https://modellium.com/",
     jobTitle: "Full Stack Web & Mobile Developer",
     timeWorked: "February 2020 - September 2021",
     tachStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion"],
