@@ -1,7 +1,6 @@
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import Button from '../shared/Button/Button';
 import './AboutMe.scss';
-import Resume from '../../assets/statics/sample.pdf';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import { SectionClasses } from '../../utils/enums';
 
@@ -28,7 +27,7 @@ export default function AboutMe() {
 
         <div className="cta">
           <Button text="Contact me" href="mailto:othmane.lahrimi.work@gmail.com" />
-          <Button text="Resume" href={Resume} />
+          <Button text="Resume" href="https://othmanelahrimi.com/resume.pdf" />
         </div>
       </div>
     </AnimateOnScroll>
