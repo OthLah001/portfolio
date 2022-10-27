@@ -1,7 +1,6 @@
 import { AngularImg, CssImg, DjangoImg, ExpressJsImg, HtmlImg, JavaScriptImg, MongoDbImg, NodeJsImg, PostgreSqlImg, PythonImg, ReactImg, ScssImg, SqlServerImg, TypescriptImg, VueImg } from '../../assets/images';
 import SectionTitle from '../shared/SectionTitle/SectionTitle';
 import './Skills.scss';
-import ResumeFile from '../../assets/statics/sample.pdf';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import '../../assets/js/tagCanvas.min.js';
 import { useEffect } from 'react';
@@ -44,7 +43,7 @@ export default function Skills() {
           effort into optimizing my code and providing the best user experience. I would love to give you any kind of support also after
           the project's completion. I guarantee a commitment during work on your project.<br /><br />
           Visit my <a href="https://www.linkedin.com/in/othmane-lahrimi/" target="_blank" className="link">Linkedin</a> profile for more details. 
-          Also you can checkout my cv on this <a href={ResumeFile} target="_blank" className="link">link</a>.
+          Also you can checkout my cv on this <a href="https://othmanelahrimi.com/resume.pdf" target="_blank" className="link">link</a>.
         </p>
 
         <div id="myCanvasContainer" className="logos">
