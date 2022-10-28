@@ -26,7 +26,7 @@ export default function AboutMe() {
         </p>
 
         <div className="cta">
-          <Button text="Contact me" href="mailto:othmane.lahrimi.work@gmail.com" />
+          <Button text="Contact me" href="mailto:contact@othmanelahrimi.com" />
           <Button text="Resume" href="https://othmanelahrimi.com/resume.pdf" />
         </div>
       </div>
