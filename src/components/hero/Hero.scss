@@ -5,15 +5,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: margin-top 0.3s linear;
 
   @include desktop {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  &.with-mt {
-    margin-top: 85px;
   }
 }
 
