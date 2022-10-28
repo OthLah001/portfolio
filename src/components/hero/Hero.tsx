@@ -4,7 +4,7 @@ import PersonalImage from '../personal-image/PersonalImage';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import './Hero.scss';
 
-export default function Home() {
+export default function Home({ withMarginTop }: { withMarginTop: boolean }) {
   const subTitles = [
     "I build things for the web.",
     1500,
@@ -15,7 +15,7 @@ export default function Home() {
   ]
 
   return (
-    <AnimateOnScroll className={`${SectionClasses.HERO} section`} animate='fadeInLeft'>
+    <AnimateOnScroll className={`${SectionClasses.HERO} section ${withMarginTop ? 'with-mt' : ''}`} animate='fadeInLeft'>
       <div className="info">
         <p>Hi, my name is</p>
         <h1>
