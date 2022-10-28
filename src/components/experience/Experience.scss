@@ -20,7 +20,11 @@
   }
   .tab-list {
     .MuiTabs-scroller {
-      overflow: scroll !important;
+      overflow-x: auto !important;
+
+      &::-webkit-scrollbar {
+        height: 1px;
+      }
     }
     .MuiTabs-indicator {
       background-color: $orange;
@@ -45,6 +49,11 @@
 
     .at {
       color: $orange;
+      text-decoration: none;
+      
+      &:hover {
+        color: $grey;
+      }
     }
   }
 

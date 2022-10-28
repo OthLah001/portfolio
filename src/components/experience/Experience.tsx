@@ -7,6 +7,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import './Experience.scss';
 import { EXPERIENCE_DATA } from './data';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
+import { SectionClasses } from '../../utils/enums';
 
 export default function Experience() {
   const [value, setValue] = useState('1');
@@ -22,7 +23,7 @@ export default function Experience() {
     );
     TabPanelsContent.push(
       <TabPanel value={`${index+1}`} className="tab-panel" key={`tab-panel-${index+1}`}>
-        <h3 className="job-title">{exp.jobTitle} <span className="at">@ {exp.company}</span></h3>
+        <h3 className="job-title">{exp.jobTitle} <a href={exp.website} target="_blank" className="at">@ {exp.company}</a></h3>
         <p className="time-worked">{exp.timeWorked}</p>
         <ul className="tasks">
           {
@@ -37,7 +38,7 @@ export default function Experience() {
 
   
   return (
-    <AnimateOnScroll className="experience-container section" animate='fadeInLeft'>
+    <AnimateOnScroll className={`${SectionClasses.EXPERIENCE} section`} animate='fadeInLeft'>
       <SectionTitle title="Experience" />
 
       <div className="data-content">

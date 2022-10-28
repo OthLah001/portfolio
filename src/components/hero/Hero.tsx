@@ -1,20 +1,21 @@
 import { TypeAnimation } from 'react-type-animation';
+import { SectionClasses } from '../../utils/enums';
 import PersonalImage from '../personal-image/PersonalImage';
 import AnimateOnScroll from '../shared/AnimateOnScroll/AnimateOnScroll';
 import './Hero.scss';
 
-export default function Home() {
+export default function Home({ withMarginTop }: { withMarginTop: boolean }) {
   const subTitles = [
     "I build things for the web.",
     1500,
-    "I make the web a good place.",
+    "I build programs.",
     1500,
-    "I make dreams come true.",
+    "I make ideas live on the web.",
     1500
   ]
 
   return (
-    <AnimateOnScroll className="hero-container section" animate='fadeInLeft'>
+    <AnimateOnScroll className={`${SectionClasses.HERO} section ${withMarginTop ? 'with-mt' : ''}`} animate='fadeInLeft'>
       <div className="info">
         <p>Hi, my name is</p>
         <h1>
