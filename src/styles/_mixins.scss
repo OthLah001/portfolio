@@ -1,5 +1,11 @@
 @import './variables';
 
+@mixin smallMobile {
+  @media (max-width: $small_mobile_break_point) { 
+    @content;
+  }
+}
+
 @mixin mobile {
   @media (max-width: $mobile_break_point) { 
     @content;

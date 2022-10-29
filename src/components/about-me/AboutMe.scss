@@ -32,12 +32,22 @@
 
   .cta {
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
 
-    .ol-button:first-of-type {
-      margin-right: 20px;
+    @include mobile {
+      margin-top: 30px;
     }
-    .ol-button:last-of-type {
-      margin-left: 20px;
+
+    @include smallMobile {
+      grid-template-columns: auto;
+      row-gap: 40px;
+
+      .ol-button {
+        text-align: center;
+      }
     }
+    
   }
 }
