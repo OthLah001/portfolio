@@ -27,7 +27,7 @@ export default function AboutMe() {
 
         <div className="cta">
           <Button text="Contact me" href="mailto:othmane.lahrimi.work@gmail.com" />
-          <Button text="Resume" href="https://othmanelahrimi.com/resume.pdf" />
+          <Button text="Resume" href="https://othmanelahrimi.com/Othmane_LAHRIMI_Resume.pdf" />
         </div>
       </div>
     </AnimateOnScroll>

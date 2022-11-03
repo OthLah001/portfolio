@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /resume.pdf
+Allow: /Othmane_LAHRIMI_Resume.pdf
 
 Sitemap: https://othmanelahrimi.com/sitemap.xml
