@@ -11,7 +11,7 @@ export default function Social() {
       <a href="https://github.com/OthLah001" target='_blank'>
         <GithubIcon />
       </a>
-      <a href="mailto:contact@othmanelahrimi.com" target='_blank'>
+      <a href="mailto:othmane.lahrimi.work@gmail.com" target='_blank'>
         <EmailIcon />
       </a>
       <a href="https://www.linkedin.com/in/othmane-lahrimi/" target='_blank'>
