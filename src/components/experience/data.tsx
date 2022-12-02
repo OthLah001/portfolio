@@ -1,11 +1,24 @@
 
 export const EXPERIENCE_DATA = [
   {
+    company: "Othari Advisor",
+    website: "https://www.othariadvisor.com/",
+    jobTitle: "IT Consultant",
+    timeWorked: "April 2022 - Now",
+    tachStack: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku"],
+    tasks: [
+      "Managing and supervising engineering project.",
+      "Supervising and assisting the engineers throughout the development process.",
+      "Providing insights and weekly reports to the CTO.",
+      "Being the head of the sprint planning, the product roadmap grooming and the engineer recruiting process.",
+    ]
+  },
+  {
     company: "IGotAnOffer",
     website: "https://igotanoffer.com/",
     jobTitle: "Full Stack Web Developer",
     timeWorked: "October 2021 - September 2022",
-    tachStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit"],
+    tachStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", , "Heroku"],
     tasks: [
       "Participate in all product and scrum meetings: sprint planning, product design, product roadmap grooming, and pair programming.",
       "Refactoring the code from using Django and Shopify templates to VueJs.",
@@ -13,19 +26,6 @@ export const EXPERIENCE_DATA = [
       "Optimizing the email sender system in terms of readability, usability, and feasibility.",
       "Developing automation and management commands and scripts.",
       "Creation and implementation of unit tests in both the backend and the frontend sides."
-    ]
-  },
-  {
-    company: "Othari Advisor",
-    website: "https://www.othariadvisor.com/",
-    jobTitle: "Consultant & Engineering Leader",
-    timeWorked: "April 2022 - August 2022",
-    tachStack: ["Angular", "Django", "PostgreSQL", "AWS"],
-    tasks: [
-      "Managing and supervising engineering project.",
-      "Supervising and assisting the engineers throughout the development process.",
-      "Providing insights and weekly reports to the CTO.",
-      "Being the head of the sprint planning, the product roadmap grooming and the engineer recruiting process.",
     ]
   },
   {
