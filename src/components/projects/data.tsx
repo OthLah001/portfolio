@@ -2,8 +2,18 @@ import VPlusImg from '../../assets/images/V+.png';
 import IGotAnOfferImg from '../../assets/images/IGotAnOffer.png';
 import MadrassetiImg from '../../assets/images/madrasseti.png';
 import WeatherAppImg from '../../assets/images/weather_app.png'
+import ElhamImg from '../../assets/images/elham.jpeg';
 
 export const PROJECTS_DATA = [
+  {
+    image: ElhamImg,
+    name: 'Elham Academy',
+    description: 'Elham is an integrated and effective platform for designing interactive training experiences.\nIt offers an easy way to create, publish and follow your interractive training content as well as the progress of your trainees through a system of accurate and detailed reports.',
+    techs: ["Angular", "Django", "Shopify", "PostgreSQL", "AWS", "Netlify", "Jira"],
+    links: {
+      external: "https://elham.sa/",
+    }
+  },
   {
     image: VPlusImg,
     name: 'V+',
