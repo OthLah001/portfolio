@@ -1,11 +1,23 @@
 
 export const EXPERIENCE_DATA = [
   {
+    company: "Elham",
+    website: "https://elham.sa/",
+    jobTitle: "Full Stack Engineer",
+    timeWorked: "January 2023 - Now",
+    techStack: ["Angular", "Django", "PostgreSQL", "AWS", "Netlify", "Jira"],
+    tasks: [
+      "Participate in all product and scrum meetings: sprint planning, product design, product roadmap grooming, and pair programming.",
+      "Refactoring the whole code from being old and incomprehensible to a newer and understandable version.",
+      "Creation and implementation of several new features.",
+    ]
+  },
+  {
     company: "Othari Advisor",
     website: "https://www.othariadvisor.com/",
     jobTitle: "IT Consultant",
-    timeWorked: "April 2022 - Now",
-    tachStack: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku"],
+    timeWorked: "April 2022 - December 2023",
+    techStack: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku"],
     tasks: [
       "Managing and supervising engineering project.",
       "Supervising and assisting the engineers throughout the development process.",
@@ -18,7 +30,7 @@ export const EXPERIENCE_DATA = [
     website: "https://igotanoffer.com/",
     jobTitle: "Full Stack Web Developer",
     timeWorked: "October 2021 - September 2022",
-    tachStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", , "Heroku"],
+    techStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", , "Heroku"],
     tasks: [
       "Participate in all product and scrum meetings: sprint planning, product design, product roadmap grooming, and pair programming.",
       "Refactoring the code from using Django and Shopify templates to VueJs.",
@@ -33,7 +45,7 @@ export const EXPERIENCE_DATA = [
     website: "https://modellium.com/",
     jobTitle: "Full Stack Web & Mobile Developer",
     timeWorked: "February 2020 - September 2021",
-    tachStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion"],
+    techStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion"],
     tasks: [
       "Participate in various agile ceremonies: daily scrum, sprint planning, feedback & review presentations.",
       "Creation and implementation of several modules that facilitate and manage the interaction of citizens with the municipality through the V+ platform.",
