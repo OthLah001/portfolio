@@ -8,9 +8,9 @@ export default function Home() {
   const subTitles = [
     "I build things for the web.",
     1500,
-    "I build programs.",
+    "I share knowledge about coding.",
     1500,
-    "I make ideas live on the web.",
+    "I help others learn programming.",
     1500
   ]
 
@@ -18,10 +18,8 @@ export default function Home() {
     <AnimateOnScroll className={`${SectionClasses.HERO} section`} animate='fadeInLeft'>
       <div className="info">
         <p>Hi, my name is</p>
-        <h1>
-          <span className="name">Othmane Lahrimi</span><br/>
-          <span className="specialty">I'm a Full Stack Developer</span>
-        </h1>
+        <h1>Othmane LAHRIMI</h1>
+        <h2 className="specialties">I'm a <span className="specialty">Full Stack Developer</span> and <span className="specialty">Content Creator</span>.</h2>
         <TypeAnimation
           sequence={subTitles}
           speed={60}
