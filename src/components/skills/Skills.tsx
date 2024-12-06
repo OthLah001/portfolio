@@ -34,16 +34,11 @@ export default function Skills() {
 
       <div className="skills-info">
         <p className="description">
-          Expert in frontend and backend development including technologies like <span className="skill">Angular</span>,
-          <span className="skill"> Vue</span>, <span className="skill">React</span>, <span className="skill">Ionic</span>,
-          <span className="skill"> Typescript</span>, <span className="skill">Python</span>, <span className="skill">Django</span>,
-          <span className="skill"> Node.js</span>, <span className="skill">Express.js</span>, <span className="skill">SQL Server</span>,
-          <span className="skill"> PostgreSQL</span> and <span className="skill">MongoDB</span>.<br /><br />
-          I’m not a designer but I have a good sense of aesthetics, and experience in responsive, mobile-first web design. I put special 
-          effort into optimizing my code and providing the best user experience. I would love to give you any kind of support also after
-          the project's completion. I guarantee a commitment during work on your project.<br /><br />
-          Visit my <a href="https://www.linkedin.com/in/othmane-lahrimi/" target="_blank" className="link">Linkedin</a> profile for more details. 
-          Also you can checkout my cv on this <a href="https://othmanelahrimi.com/Othmane_LAHRIMI_Resume.pdf" target="_blank" className="link">link</a>.
+          <strong>I specialize in both frontend and backend development</strong>, with deep expertise in <span className="skill">Angular</span>, <span className="skill">Django</span>, <span className="skill">Python</span>, <span className="skill">TypeScript</span>, <span className="skill">PostgreSQL</span>, and <span className="skill">MongoDB</span>. I also have experience working with <span className="skill">Vue</span>, <span className="skill">React</span>, <span className="skill">Ionic</span>, <span className="skill">Node.js</span>, <span className="skill">Express.js</span>, and <span className="skill">SQL Server</span>, allowing me to adapt to various project requirements and technologies.
+          <br /><br />
+          I focus on writing <strong>clean, efficient code</strong> that delivers excellent user experiences, prioritizing <strong>performance, accessibility, and maintainability</strong>.
+          <br /><br />
+          I have developed <strong>strong communication and leadership skills</strong>, honed as a <strong>Founder and Team Leader</strong> at Othari Advisor. Certifications like the <strong>McKinsey Forward Program</strong> and <strong>STAGE Academy - Communication Skills Certificate</strong> highlight my ability to foster collaboration and deliver results.
         </p>
 
         <div id="myCanvasContainer" className="logos">
