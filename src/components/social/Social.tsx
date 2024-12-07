@@ -4,6 +4,7 @@ import InstagramIcon from '../shared/Icons/InstagramIcon';
 import LinkedInIcon from '../shared/Icons/LinkedInIcon';
 import LeetcodeIcon from '../shared/Icons/LeetcodeIcon';
 import './Social.scss';
+import YoutubeIcon from '../shared/Icons/YoutubeIcon';
 
 export default function Social() {
   return (
@@ -11,17 +12,20 @@ export default function Social() {
       <a href="https://github.com/OthLah001" target='_blank'>
         <GithubIcon />
       </a>
-      <a href="mailto:othmane.lahrimi.work@gmail.com" target='_blank'>
+      <a href="mailto:me@othmanelahrimi.com" target='_blank'>
         <EmailIcon />
       </a>
       <a href="https://www.linkedin.com/in/othmane-lahrimi/" target='_blank'>
         <LinkedInIcon />
       </a>
+      <a href="https://www.youtube.com/@DevOL-001/" target='_blank'>
+        <YoutubeIcon />
+      </a>
+      <a href="https://www.instagram.com/_dev__ol/" target='_blank'>
+        <InstagramIcon />
+      </a>
       <a href="https://leetcode.com/__othmane_lh__/" target='_blank'>
         <LeetcodeIcon />
-      </a>
-      <a href="https://www.instagram.com/_othmane__lh/" target='_blank'>
-        <InstagramIcon />
       </a>
     </div>
   )

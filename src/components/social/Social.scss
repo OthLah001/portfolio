@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .social-container {
   display: flex;
@@ -40,6 +40,11 @@
     width: 20px;
     height: 20px;
     color: $grey;
+
+    &.youtube-icon {
+      width: 22px;
+      height: 22px;
+    }
 
     &:hover {
       color: $orange;
