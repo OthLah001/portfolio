@@ -8,17 +8,18 @@ export const PROJECTS_DATA = [
   {
     image: ElhamImg,
     name: 'Elham Academy',
-    description: 'Elham is an integrated and effective platform for designing interactive training experiences.\nIt offers an easy way to create, publish and follow your interractive training content as well as the progress of your trainees through a system of accurate and detailed reports.',
-    techs: ["Angular", "Django", "Shopify", "PostgreSQL", "AWS", "Netlify", "Jira"],
+    description: 'Elham is an innovative platform designed for creating and managing interactive training experiences. It provides an intuitive interface for designing, publishing, and monitoring training content, while offering detailed reports to track trainee progress effectively. The platform empowers educators and organizations to deliver high-quality, data-driven training solutions.',
+    techs: ["Angular", "Django", "PostgreSQL", "AWS", "Netlify", "ClickUp", "Git", "Github", "Bitbucket"],
     links: {
+      github: "https://github.com/OthmaneElham?tab=overview&from=2023-12-01&to=2023-12-31",
       external: "https://elham.sa/",
     }
   },
   {
     image: VPlusImg,
     name: 'V+',
-    description: 'V+ is a city-citizen interaction platform that is part of smart city projects. For a citizen, he can download V+ as a mobile application or use it as a web application. The secure platform gives citizens access to a multitude of information. For the municipality, it allows communication more easily with citizens in order to improve their sense of belonging as well as their quality of life.',
-    techs: ["Angular", "Ionic", "Node.js", "Expres.js", "Microsoft SQL Server", "AWS", "Twilio", "SurveyJS"],
+    description: 'V+ is an advanced city-citizen interaction platform, contributing to smart city initiatives. Citizens can access it via a mobile or web application, gaining secure access to a wide range of information. For municipalities, it serves as a tool to enhance communication with citizens, fostering a sense of belonging and improving their quality of life.',
+    techs: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion", "Git", "Github"],
     links: {
       external: "https://www.lac-saint-paul.ca/accueil",
     }
@@ -26,27 +27,27 @@ export const PROJECTS_DATA = [
   {
     image: IGotAnOfferImg,
     name: 'IGotAnOffer',
-    description: 'IGotAnOffer is a coaching interview platform that helps professionals get a job at top companies like Facebook, Google, McKinsey, BCG, etc. The coaches are all ex-interviewers with first hand experience of what it takes to get an offer.\nSince getting started, IGotAnOffer helped more than 12,000 candidates get a job in consulting, product management, technical program management, software engineering, etc.',
-    techs: ["Vue.js", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit"],
+    description: 'IGotAnOffer is a coaching platform designed to help professionals secure positions at top-tier companies such as Facebook, Google, McKinsey, and BCG. Its coaches, all former interviewers, provide insightful guidance and preparation strategies based on firsthand experience. Since its inception, IGotAnOffer has helped over 17,000 candidates land roles in consulting, product management, technical program management, software engineering, and more.',
+    techs: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", "Heroku", "Git", "Github"],
     links: {
-      github: "https://github.com/OthmanIGAO",
+      github: "https://github.com/OthmanIGAO?tab=overview&from=2021-12-01&to=2021-12-31",
       external: "https://igotanoffer.com/",
     }
   },
   {
     image: MadrassetiImg,
     name: 'Madrasseti',
-    description: 'Madrasseti is a school management app where school principals and staffs can manage their school using the platform.\nThe platform is divided into 2 parts:\n\r1. The private part which is private to only principals and staffs and which give them the ability to manage everything using several modules.\n\r2. The public part which can be accessed by anyone to see general information and advertising.',
-    techs: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku"],
+    description: 'Madrasseti is a comprehensive school management platform designed to streamline operations for principals and staff. The platform features two key components:\n1. Private Portal: Accessible only to school staff, offering modules to manage all aspects of school administration efficiently.\n2. Public Portal: Open to the public for viewing general information and advertisements about the school.\nThis dual approach ensures robust management capabilities while maintaining transparency for external users.',
+    techs: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku", "Git", "Github"],
     links: {
-      github: "https://github.com/OthmaneOA",
-      external: "https://horizon-al-gharb.madrasseti.com/accueil",
+      github: "https://github.com/OthmaneOA?tab=overview&from=2022-12-01&to=2022-12-31",
+      external: "https://madrasseti-frontend.herokuapp.com/admin/login",
     }
   },
   {
     image: WeatherAppImg,
     name: 'Weather App',
-    description: 'Weather App is a mobile weather application, it offers the weather information of your current position for the next 24 hours and for the next 7 days, also it offers the information of the sunrise and sunset. The application contains a setting menu where you can change the temperature unit, change the wind speed unit , change the unit of time thus change the language of the application.',
+    description: 'Weather App is an android mobile application providing real-time weather updates for your current location. It displays weather information for the next 24 hours and 7 days, along with sunrise and sunset times. The app features a settings menu, allowing users to customize preferences such as temperature units, wind speed units, time format, and language, ensuring a personalized user experience.',
     techs: ["Angular", "Ionic", "Scss", "OpenWeatherMap", "LocationIQ"],
     links: {
       github: "https://github.com/OthLah001/WeatherApp",
