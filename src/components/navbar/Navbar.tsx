@@ -36,9 +36,7 @@ export default function Navbar() {
   return (
     <div className={`navbar-container ${showNav ? 'show' : 'hide'} ${showLinks ? 'shown-links' : 'hidden-links'}` }>
       <div className="main-menu">
-        <p className="home" onClick={() => scrollToSectionFct(`.${SectionClasses.HERO}`)}>
-          <LogoIcon />
-        </p>
+        <p className="home" onClick={() => scrollToSectionFct(`.${SectionClasses.HERO}`)}> </p>
         <p className="mobile-icon" onClick={() => setShowLinks(isShown => !isShown)}>&#9776;</p>
       </div>
 

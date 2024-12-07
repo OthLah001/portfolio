@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import "../../styles/mixins";
 
 .navbar-container {
   width: 100%;
@@ -9,7 +9,7 @@
   display: flex;
   z-index: 999;
   box-shadow: 0 10px 30px -10px $night;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 1px;
   font-size: 14px;
   transition: top 0.3s linear;
@@ -58,11 +58,10 @@
   .home {
     margin-left: 35px;
     cursor: pointer;
-
-    .logo-icon {
-      width: 32px;
-      height: 32px;
-    }
+    width: 140px;
+    height: 36px;
+    background-image: url("../../assets/images/logo.png");
+    background-size: cover;
   }
 
   .mobile-icon {
@@ -89,7 +88,7 @@
     }
     &.hide-links {
       height: 0px;
-      
+
       p {
         opacity: 0;
         position: fixed;
