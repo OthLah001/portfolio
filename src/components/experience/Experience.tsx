@@ -18,12 +18,17 @@ export default function Experience() {
   let TabsContent = [];
   let TabPanelsContent = [];
   for(const [index, exp] of EXPERIENCE_DATA.entries()) {
+    const techsSpans = exp.techStack.map(
+      (tech, index) => <span key={index} className="tech">{tech}</span>
+    )
+
     TabsContent.push(
       <Tab className="tab" label={exp.company} value={`${index+1}`} key={`tab-${index+1}`} />
     );
     TabPanelsContent.push(
       <TabPanel value={`${index+1}`} className="tab-panel" key={`tab-panel-${index+1}`}>
         <h3 className="job-title">{exp.jobTitle} <a href={exp.website} target="_blank" className="at">@ {exp.company}</a></h3>
+        <p className="techs">{techsSpans}</p>
         <p className="time-worked">{exp.timeWorked}</p>
         <ul className="tasks">
           {

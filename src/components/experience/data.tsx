@@ -5,7 +5,7 @@ export const EXPERIENCE_DATA = [
     website: "https://elham.sa/",
     jobTitle: "Full Stack Developer",
     timeWorked: "January 2023 - Now",
-    techStack: ["Angular", "Django", "PostgreSQL", "AWS", "Netlify", "ClickUp", "Git", "Github", "Bitbucket"],
+    techStack: ["Angular", "Django", "Python", "JavaScript", "TypeScript", "PostgreSQL", "AWS", "Netlify", "Bitbucket", "Git", "GitHub", "Scrum"],
     tasks: [
       "Led the backend development of the Learner Dashboard feature and took full ownership of its maintenance after successfully delivering it to the Misk organization.",
       "Directed the team in building the certificates system and contributed significantly to its development journey.",
@@ -20,7 +20,7 @@ export const EXPERIENCE_DATA = [
     website: "https://www.othariadvisor.com/",
     jobTitle: "Founder, CEO & Team Leader",
     timeWorked: "April 2022 - December 2023",
-    techStack: ["Angular", "Django", "PostgreSQL", "AWS", "Heroku", "Git", "Github"],
+    techStack: ["Angular", "Django", "Python", "JavaScript", "TypeScript", "PostgreSQL", "AWS", "Heroku", "Git", "GitHub", "Scrum"],
     tasks: [
       "Founded and led engineering projects, overseeing all development phases.",
       "Managed and mentored the engineering team, ensuring alignment with project goals.",
@@ -34,7 +34,7 @@ export const EXPERIENCE_DATA = [
     website: "https://igotanoffer.com/",
     jobTitle: "Full Stack Web Developer",
     timeWorked: "October 2021 - September 2022",
-    techStack: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", "Heroku", "Git", "Github"],
+    techStack: ["VueJs", "Django", "Python", "JavaScript", "TypeScript", "Shopify", "PostgreSQL", "AWS", "Timekit", "Heroku", "Git", "GitHub", "Scrum"],
     tasks: [
       "Refactored the codebase from Django and Shopify templates to Vue.js.",
       "Developed and implemented new features to enhance user experience and improve platform usability for candidates.",
@@ -50,7 +50,7 @@ export const EXPERIENCE_DATA = [
     website: "https://modellium.com/",
     jobTitle: "Full Stack Web & Mobile Developer",
     timeWorked: "February 2020 - September 2021",
-    techStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion", "Git", "Github"],
+    techStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "JavaScript", "TypeScript", "SQL Server", "AWS", "Twilio", "SyncFusion", "Git", "GitHub", "Scrum"],
     tasks: [
       "Designed and developed modules to enhance citizen-municipality interaction via the V+ platform.",
       "Optimized code for performance and readability, adhering to best practices discussed in architect meetings.",
