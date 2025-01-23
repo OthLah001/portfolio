@@ -34,11 +34,11 @@ export default function Skills() {
 
       <div className="skills-info">
         <p className="description">
-          <strong>I specialize in both frontend and backend development</strong>, with deep expertise in <span className="skill">Angular</span>, <span className="skill">Django</span>, <span className="skill">Python</span>, <span className="skill">TypeScript</span>, <span className="skill">PostgreSQL</span>, and <span className="skill">MongoDB</span>. I also have experience working with <span className="skill">Vue</span>, <span className="skill">React</span>, <span className="skill">Ionic</span>, <span className="skill">Node.js</span>, <span className="skill">Express.js</span>, and <span className="skill">SQL Server</span>, allowing me to adapt to various project requirements and technologies.
+          I specialize in <strong>end-to-end</strong> web development, mastering technologies like <span className="skill">Angular</span>, <span className="skill">Django</span>, <span className="skill">Python</span>, <span className="skill">TypeScript</span>, <span className="skill">PostgreSQL</span>, and <span className="skill">MongoDB</span>. My technical versatility extends to <span className="skill">Vue</span>, <span className="skill">React</span>, <span className="skill">Ionic</span>, <span className="skill">Node.js</span>, <span className="skill">Express.js</span>, and <span className="skill">SQL Server</span>, enabling me to architect solutions that precisely meet diverse project requirements and technological challenges.
           <br /><br />
-          I focus on writing <strong>clean, efficient code</strong> that delivers excellent user experiences, prioritizing <strong>performance, accessibility, and maintainability</strong>.
+          I'm committed to writing <strong>clean</strong>, <strong>efficient code</strong> that prioritizes performance, robust user experiences, seamless accessibility, and long-term maintainability. Each project is an opportunity to transform complex technical requirements into elegant, scalable solutions that drive business value.
           <br /><br />
-          I have developed <strong>strong communication and leadership skills</strong>, honed as a <strong>Founder and Team Leader</strong> at Othari Advisor. Certifications like the <strong>McKinsey Forward Program</strong> and <strong>STAGE Academy - Communication Skills Certificate</strong> highlight my ability to foster collaboration and deliver results.
+          As a Founder and Technical Lead, I've cultivated <strong>robust leadership and communication skills</strong>. Certifications from the McKinsey Forward Program and STAGE Academy highlight my ability to translate technical complexity into collaborative, results-driven outcomes, bridging the gap between innovative technology and strategic business objectives.
         </p>
 
         <div id="myCanvasContainer" className="logos">
