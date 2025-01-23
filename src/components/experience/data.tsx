@@ -33,7 +33,7 @@ export const EXPERIENCE_DATA = [
     website: "https://igotanoffer.com/",
     jobTitle: "Full Stack Web Developer",
     timeWorked: "October 2021 - September 2022",
-    techStack: ["VueJs", "Django", "PostgreSQL", "AWS", "Heroku", "Shopify", "Timekit"],
+    techStack: ["Vue.js", "Django", "PostgreSQL", "AWS", "Heroku", "Shopify", "Timekit"],
     tasks: [
       "Developed and launched a resume review feature achieving a 4.96/5 rating from 1,250+ users, handling both frontend and backend implementation.",
       "Modernized the payment infrastructure by implementing the latest Stripe integration, ensuring a seamless end-to-end transaction flow.",
@@ -48,7 +48,7 @@ export const EXPERIENCE_DATA = [
     website: "https://modellium.com/",
     jobTitle: "Full Stack Web & Mobile Developer",
     timeWorked: "February 2020 - September 2021",
-    techStack: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion"],
+    techStack: ["Angular", "Ionic", "Node.js", "Express.js", "SQL Server", "AWS", "Twilio", "SyncFusion"],
     tasks: [
       "Built and enhanced core modules of the V+ platform serving 100+ municipalities and 56,000+ active users, significantly improving citizen-municipality communication especially during COVID-19.",
       "Engineered a dynamic SEO system for 100+ municipality websites, implementing automated sitemap generation and dynamic meta-tag management to improve search engine visibility.",

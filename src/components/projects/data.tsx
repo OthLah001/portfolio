@@ -19,7 +19,7 @@ export const PROJECTS_DATA = [
     image: VPlusImg,
     name: 'V+',
     description: 'V+ is an advanced city-citizen interaction platform, contributing to smart city initiatives. Citizens can access it via a mobile or web application, gaining secure access to a wide range of information. For municipalities, it serves as a tool to enhance communication with citizens, fostering a sense of belonging and improving their quality of life.',
-    techs: ["Angular", "Ionic", "NodeJS", "ExpressJS", "SQL Server", "AWS", "Twilio", "SyncFusion", "Git", "GitHub"],
+    techs: ["Angular", "Ionic", "Node.js", "Express.js", "SQL Server", "AWS", "Twilio", "SyncFusion", "Git", "GitHub"],
     links: {
       external: "https://www.lac-saint-paul.ca/accueil",
     }
@@ -28,7 +28,7 @@ export const PROJECTS_DATA = [
     image: IGotAnOfferImg,
     name: 'IGotAnOffer',
     description: 'IGotAnOffer is a coaching platform designed to help professionals secure positions at top-tier companies such as Facebook, Google, McKinsey, and BCG. Its coaches, all former interviewers, provide insightful guidance and preparation strategies based on firsthand experience. Since its inception, IGotAnOffer has helped over 17,000 candidates land roles in consulting, product management, technical program management, software engineering, and more.',
-    techs: ["VueJs", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", "Heroku", "Git", "GitHub"],
+    techs: ["Vue.js", "Django", "Shopify", "PostgreSQL", "AWS", "Timekit", "Heroku", "Git", "GitHub"],
     links: {
       github: "https://github.com/OthmanIGAO?tab=overview&from=2021-12-01&to=2021-12-31",
       external: "https://igotanoffer.com/",
